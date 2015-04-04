@@ -1,9 +1,1 @@
-{
-  "generator-reveal": {
-    "presentationTitle": "Școala Altfel 2015",
-    "packageVersion": "0.0.0",
-    "revealTheme": "sky",
-    "useSass": false,
-    "deployToGithubPages": false
-  }
-}
+{}

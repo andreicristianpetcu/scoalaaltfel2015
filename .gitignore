@@ -1,6 +1,5 @@
 node_modules
-bower_components
 dist
-*.log
+.tmp
 .sass-cache
-index.html
+bower_components
