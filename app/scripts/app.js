@@ -27,6 +27,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/elevi', {
+        templateUrl: 'views/elevi.html',
+        controller: 'EleviCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
