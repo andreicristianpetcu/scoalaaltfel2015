@@ -1,5 +1,8 @@
 [
     "index.md",
     "clasa.html",
-    "video.html"
+    [
+        "video.html"
+    ],
+    "clasa.html"
 ]
