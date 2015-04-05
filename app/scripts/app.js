@@ -36,3 +36,11 @@ angular
         redirectTo: '/'
       });
   });
+  var app = angular.module('scoalaaltfel2015App');
+  app.run(function ($rootScope, SweetAlert) {
+      $rootScope.$on('$routeChangeSuccess', function () {
+          $rootScope.test = 'Global'; 
+          $rootScope.SweetAlert = SweetAlert; 
+          $rootScope.sweetAlert = SweetAlert; 
+      });
+  });
